@@ -203,6 +203,29 @@ display: block;
   height: 100%;
 }
 
+.container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;    /* Centra verticalmente */
+  
+}
+
+.perfil {
+  width: 150px; /* Ajusta el tamaño según lo necesites */
+  height: 250px; /* Ajusta el tamaño según lo necesites */
+  overflow: hidden;
+  border-radius: 10%; /* Hace que sea circular */
+  border: 3px solid #fff; /* Borde blanco, opcional */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra, opcional */
+}
+
+.perfil img {
+  width: 100%;
+  height: auto; /* Mantiene la relación de aspecto */
+  display: block;
+  position: initial;
+}
+
 
  
  
